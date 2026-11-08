@@ -1,0 +1,24 @@
+Gladys CTS Strasbourg integration
+Copyright 2026 William Deren
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The real-time passages and the traffic messages come from the official API of
+the Compagnie des Transports Strasbourgeois (CTS),
+https://api.cts-strasbourg.eu/v1 (SIRI-lite), listed on transport.data.gouv.fr
+("Réseau urbain CTS",
+https://transport.data.gouv.fr/datasets/donnees-theoriques-gtfs-et-temps-reel-siri-lite-du-reseau-cts)
+under the Licence Ouverte / Open Licence 2.0 of Etalab:
+https://www.etalab.gouv.fr/licence-ouverte-open-licence/. Each user needs a
+personal token of the open data portal of the CTS. The names and codes of the
+stops and lines come from the open GTFS of the CTS,
+https://opendata.cts-strasbourg.eu/google_transit.zip, under the same licence.
+Source: CTS. The widgets show the source and the time of each reading.
+
+The files under test/fixtures/gtfs are extracts of that GTFS (Licence Ouverte
+2.0). The answers of the API used by the tests were built from its published
+OpenAPI description (https://api.cts-strasbourg.eu/v1/swagger.json), not
+recorded from it.
+
+This community integration is not affiliated with, endorsed or sponsored by
+the Compagnie des Transports Strasbourgeois or the Eurométropole de Strasbourg.

@@ -1,0 +1,13 @@
+route_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color,network_id
+02,2,"Lingolsheim Gare - Jardin des Deux Rives",,3,E10D19,FFFFFF,CTS
+10,10,"Gare Centrale - Musée d'Art Moderne - Gallia",,3,F8B705,000000,CTS
+31,31,"Ampère - Baggersee",,3,F3C6DB,000000,CTS
+A,A,"Parc des Sports - Illkirch Graffenstaden",,0,E10D19,FFFFFF,CTS
+B,B,"Hoenheim Gare - Lingolsheim Tiergaertel",,0,009EE0,FFFFFF,CTS
+C,C,"Gare Centrale - Neuhof Rodolphe Reuss",,0,F29400,FFFFFF,CTS
+C1,C1,"Lingolsheim Alouettes - Robertsau Lamproie",,3,22AE84,FFFFFF,CTS
+D,D,"Poteries - Port du Rhin / Kehl Rathaus",,0,009933,FFFFFF,CTS
+E,E,"Robertsau L'Escale - Campus d'Illkirch",,0,9085BA,FFFFFF,CTS
+F,F,"Wolfisheim Henri Rendu - Place d'Islande",,0,97BF0D,FFFFFF,CTS
+G,G,"Rotterdam - Gare - Espace Européen de l'Entreprise",,3,F6C900,000000,CTS
+H,H,"Gare Centrale - Parlement Européen",,3,A62341,FFFFFF,CTS

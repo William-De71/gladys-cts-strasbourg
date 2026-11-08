@@ -1,0 +1,45 @@
+{
+  "name": "gladys-cts-strasbourg",
+  "version": "0.1.0",
+  "private": true,
+  "description": "External Gladys Assistant integration for the CTS, the trams and buses of Strasbourg (official real-time API): next passages at your stops, line traffic and messages, scenes and dashboard widgets.",
+  "homepage": "https://github.com/William-De71/gladys-cts-strasbourg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/William-De71/gladys-cts-strasbourg.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@gladysassistant/integration-sdk": "^0.16.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "gladys-assistant",
+    "gladys-assistant-integration",
+    "cts",
+    "strasbourg",
+    "public-transport",
+    "siri",
+    "tram",
+    "bus",
+    "home-automation"
+  ]
+}
